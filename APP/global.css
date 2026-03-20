@@ -52,3 +52,8 @@
   background-color: var(--gold-light);
   color: var(--gold-primary);
 }
+/* Duplicate block with the correct selector (the earlier selector used triple-colons). */
+:selection {
+  background-color: var(--gold-light);
+  color: var(--gold-primary);
+}
